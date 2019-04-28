@@ -14,13 +14,13 @@ Personally I like to manually manage my compilers, but in this case we'll first 
 
 ### Method 01: Minimal Installer
 
-VIDEO: 01_Haskell_Minimal_Installer
+[![01_Haskell_Minimal_Installer](https://img.youtube.com/vi/tcyaDUuQaCw/0.jpg)](https://www.youtube.com/watch?v=tcyaDUuQaCw)
 
 I recommend using the minimal installer. Full installer comes with some included libraries but you are most likely going to need some other versions of those libraries for your future projects so it really doesn't matter if they are initially included or not. We'll download them later anyway.
 
 You can download the minimal installer from the following link:
 
-[https://www.haskell.org/platform/windows.html]
+[https://www.haskell.org/platform/windows.html](https://www.haskell.org/platform/windows.html)
 
 After you are done downloading it, run it (obviously). I suggest you go with all the defaults except when you come to the "Choose Component" section of the installer. There you should uncheck "Stack".
 
@@ -30,7 +30,7 @@ You can also install Stack manually from the following [link](https://get.haskel
 
 ### Method 02: Manual Installation
 
-VIDEO: 02_Haskell_Manual_Installation
+[![02_Haskell_Manual_Installation](https://img.youtube.com/vi/30KfCFmvk9U/0.jpg)](https://www.youtube.com/watch?v=30KfCFmvk9U)
 
 Manual installation is my preferred way of doing things. You can download GHC (Glasgow Haskell Compiler) and Cabal from the following links:
 
@@ -123,7 +123,7 @@ You should get the version information of GHC and Cabal.
 
 ## Installing GIT (the right way)
 
-VIDEO: 03_Git_Installer
+[![03_Git_Installer](https://img.youtube.com/vi/eQsVp-TTCZI/0.jpg)](https://www.youtube.com/watch?v=eQsVp-TTCZI)
 
 GIT comes with MSYS2 package. We don't nasty third party UNIX utilities form GIT installation polluting our pristine Windows environment. We'll do that our self later.
 
@@ -135,13 +135,13 @@ The reason why is because we'll later use MSYS2 as a package manager, and since 
 
 ## Installing MSYS2
 
-VIDEO: 04_MSYS2_Installer
+[![04_MSYS2_Installer](https://img.youtube.com/vi/OjJp9tf2aoI/0.jpg)](https://www.youtube.com/watch?v=OjJp9tf2aoI)
 
 Installing MSYS2 is pretty straight forward if you have read the [instructions on their page](https://www.msys2.org/). Just for the completeness sake I've also recorded a video of the installation procedure.
 
 ## Configuring MSYS2 And Compiling Cairo library
 
-VIDEO: 05_MSYS2_Configuration_Cairo_Installation
+[![05_MSYS2_Configuration_Cairo_Installation](https://img.youtube.com/vi/RfvS7hJYqiU/0.jpg)](https://www.youtube.com/watch?v=RfvS7hJYqiU)
 
 If you can compile [cairo](https://hackage.haskell.org/package/cairo) on Windows then you can do anything!
 
@@ -287,7 +287,7 @@ WSL will allow us much simpler workflow with [GHCJS](https://github.com/ghcjs/gh
 
 ### Enabling WSL
 
-VIDEO: 06_WSL_Enable
+[![06_WSL_Enable](https://img.youtube.com/vi/Kd_CTkziBc4/0.jpg)](https://www.youtube.com/watch?v=Kd_CTkziBc4)
 
 To enable WSL you can either open a console as an administrator and then run following command in PowerShell:
 
@@ -301,7 +301,7 @@ After enabling it you should restart the computer.
 
 ### WSL Ubuntu Installation
 
-VIDEO: 07_WSL_Installation_Procedure
+[![07_WSL_Installation_Procedure](https://img.youtube.com/vi/goEYFy3NbMg/0.jpg)](https://www.youtube.com/watch?v=goEYFy3NbMg)
 
 You can install [Ubuntu](https://www.ubuntu.com/) for WSL from Windows Store, but I prefer to install it manually.
 
@@ -338,7 +338,7 @@ to update your new Linux system.
 
 ### WSL GHC and Cabal Installation
 
-VIDEO: 08_WSL_GHC_Cabal_Installation
+[![08_WSL_GHC_Cabal_Installation](https://img.youtube.com/vi/v7GLCTGGczc/0.jpg)](https://www.youtube.com/watch?v=v7GLCTGGczc)
 
 Ok, so the whole point of installing WSL was to get GHCJS the easy way. You can thank [Herbert V. Riedel](https://github.com/hvr) for this since he has provided us with several nice repositories with pre-compiled GHCJS / GHC versions optimized for WSL.
 
@@ -396,7 +396,7 @@ compiled using version 2.4.1.0 of the Cabal library
 
 ### WSL GHCJS Installation
 
-VIDEO: 09_WSL_GHCJS_Installation
+[![09_WSL_GHCJS_Installation](https://img.youtube.com/vi/X4QQAIbaji8/0.jpg)](https://www.youtube.com/watch?v=X4QQAIbaji8)
 
 Next we have to install GHCJS, which is also very straight forward. You can do it by running:
 
@@ -417,7 +417,7 @@ And after sourcing my profile with `. ~/.profile` I can check if GHCJS was set u
 
 ### WSL Building Miso ToDo MVC Single Page Web Application
 
-VIDEO: 10_WSL_GHCJS_Building_Miso_ToDoMVC
+[![10_WSL_GHCJS_Building_Miso_ToDoMVC](https://img.youtube.com/vi/YIsZMLiSzlY/0.jpg)](https://www.youtube.com/watch?v=YIsZMLiSzlY)
 
 Cool. Now that we have everything set up it's time to test our GHCJS compiling abilities :D
 
